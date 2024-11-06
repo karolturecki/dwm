@@ -6,6 +6,9 @@ static const unsigned int gappx     = 10;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 0;        /* 0 means no bar */
 static const int topbar             = 0;        /* 0 means bottom bar */
+static const int usealtbar          = 1;        /* 1 means use non-dwm status bar */
+static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
+static const char *altbarcmd        = "polybar &"; /* Alternate bar launch command */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#b4befe";
